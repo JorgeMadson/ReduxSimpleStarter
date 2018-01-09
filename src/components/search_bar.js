@@ -10,11 +10,8 @@ class SearchBar  extends Component {
 }
   render() {
     return (
-      //Aqui tenho uma função recebendo o event como parametro e
-      //modificando o valor do state quando o evento onChange acontece
-//Isso é um contolled component
-      <div className="search-bar">
-        <input
+      <div className="search-bar form-group">
+        <input className="form-control" placeholder="Pesquise..."
         value  = {this.state.term}
         onChange={event => this.onInputChange(event.target.value)} />
       </div>

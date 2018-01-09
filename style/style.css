@@ -1,11 +1,12 @@
-.search_bar{
+/*.search_bar{
   margin 20px;
   text-align: center;
 }
 
 .search_bar input {
+  .input-group
   width: 75%;
-}
+}*/
 
 .video-item img{
   max-width: 64px;
