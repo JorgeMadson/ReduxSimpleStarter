@@ -37,7 +37,7 @@ class App extends Component {
 
     return (
       <div>
-        <img className="center-block" src="http://datapunk.net/opus23blog/wp-content/uploads/2016/10/utopia_logo.png" />
+        <img className="center-block" src="http://datapunk.net/opus23blog/wp-content/uploads/2016/10/utopia_logo.png" alt="logo site"/>
         <SearchBar onSearchTermChange={videoSearch} />
         <VideoDetail video={this.state.selectedVideo}/>
         <VideoList
