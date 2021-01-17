@@ -37,7 +37,7 @@ class App extends Component {
 
     return (
       <div>
-        <img className="center-block" src="http://datapunk.net/opus23blog/wp-content/uploads/2016/10/utopia_logo.png" alt="logo site"/>
+        <img className="center-block" src="https://cdn.discordapp.com/icons/191599086284177418/5772903ecfd216e02b4267d15a4e5b3b.webp?size=128" alt="logo site"/>
         <SearchBar onSearchTermChange={videoSearch} />
         <VideoDetail video={this.state.selectedVideo}/>
         <VideoList
